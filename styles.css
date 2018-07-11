@@ -1,3 +1,44 @@
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+hr {
+    border: 0;
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+
+.major-rule {
+    border: 0;
+    color: black;
+    background-color: black;
+    height: 5px;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .9em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -7,6 +48,7 @@ header {
 
 section {
     max-width: 400px;
+    padding: 10px;
 }
 
 .parent {
