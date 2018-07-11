@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    max-width: 400px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
