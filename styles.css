@@ -41,8 +41,15 @@ li {
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: flex-end;
+}
+
+header > div {
+    flex: 1;
+    max-width: 400px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 .resume-body {
@@ -58,3 +65,4 @@ section {
 .sub-section {
     padding-top: 10px;
 }
+
