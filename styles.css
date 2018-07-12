@@ -1,3 +1,8 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .9em;
+}
+
 h1, h2, h3 {
     font-family: sans-serif;
     margin: 0px;
@@ -20,19 +25,13 @@ hr {
 }
 
 .major-rule {
-    border: 0;
-    color: black;
-    background-color: black;
     height: 5px;
 }
 
 ul {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: .9em;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    padding-top: 10px;
 }
 
 li {
@@ -46,12 +45,16 @@ header {
     justify-content: center;
 }
 
+.resume-body {
+    display: flex;
+    justify-content: center;
+}
+
 section {
     max-width: 400px;
     padding: 10px;
 }
 
-.parent {
-    display: flex;
-    justify-content: center;
+.sub-section {
+    padding-top: 10px;
 }
