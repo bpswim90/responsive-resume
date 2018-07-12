@@ -20,6 +20,10 @@ h3 {
     font-size: 1em;
 }
 
+i {
+    padding-right: 5px;
+}
+
 hr {
     border: 0;
     color: black;
