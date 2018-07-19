@@ -84,7 +84,7 @@ section > :last-child {
     line-height: 1.25em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .flex-columns {
         display: block;
     }
