@@ -84,6 +84,18 @@ section > :last-child {
     line-height: 1.25em;
 }
 
+a {
+    color: #8d8d8d;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     .flex-columns {
         display: block;
